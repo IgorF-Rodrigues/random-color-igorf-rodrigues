@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.btn {
+    background-color: #08080a42;
+    border: 2px solid #00000042;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px #00000042;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btn.btn:active {
+    background-color: #00000052;
+    box-shadow: none;
+
+}
+
+.colorBox {
+    border: 2px solid #08080a42;
+    border-radius: 5px;
+    padding: 5px;
+}
