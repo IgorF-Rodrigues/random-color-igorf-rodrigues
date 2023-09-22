@@ -31,7 +31,10 @@ btn.onclick = () => {
         cor.push(colorList[numero]);
     }    
     
-    colorBox.innerHTML += cor.join('').toUpperCase();
+    mudaTela(cor);
+}
 
-    screen.style.backgroundColor = cor.join('')
+function mudaTela(cor) {
+    colorBox.innerHTML += cor.join('').toUpperCase();
+    screen.style.backgroundColor = cor.join('');
 }
